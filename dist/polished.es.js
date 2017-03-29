@@ -1,9 +1,3 @@
-(function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
-  typeof define === 'function' && define.amd ? define(['exports'], factory) :
-  (factory((global.polished = global.polished || {})));
-}(this, (function (exports) { 'use strict';
-
 //      
 var positionMap = ['top', 'right', 'bottom', 'left'];
 
@@ -2751,61 +2745,4 @@ function transitions() {
 // Color
 // Shorthands
 
-exports.adjustHue = adjustHue$1;
-exports.animation = animation;
-exports.backgroundImages = backgroundImages;
-exports.backgrounds = backgrounds;
-exports.borderColor = borderColor;
-exports.borderRadius = borderRadius;
-exports.borderStyle = borderStyle;
-exports.borderWidth = borderWidth;
-exports.buttons = buttons;
-exports.clearFix = clearFix;
-exports.complement = complement;
-exports.darken = darken$1;
-exports.desaturate = desaturate$1;
-exports.directionalProperty = directionalProperty;
-exports.ellipsis = ellipsis;
-exports.em = em;
-exports.fontFace = fontFace;
-exports.grayscale = grayscale;
-exports.invert = invert;
-exports.hideText = hideText;
-exports.hiDPI = hiDPI;
-exports.hsl = hsl;
-exports.hsla = hsla;
-exports.lighten = lighten$1;
-exports.margin = margin;
-exports.mix = mix$1;
-exports.modularScale = modularScale;
-exports.normalize = normalize;
-exports.opacify = opacify$1;
-exports.padding = padding;
-exports.parseToHsl = parseToHsl;
-exports.parseToRgb = parseToRgb;
-exports.placeholder = placeholder;
-exports.position = position;
-exports.radialGradient = radialGradient;
-exports.rem = rem;
-exports.retinaImage = retinaImage;
-exports.rgb = rgb;
-exports.rgba = rgba;
-exports.saturate = saturate$1;
-exports.selection = selection;
-exports.setHue = setHue$1;
-exports.setLightness = setLightness$1;
-exports.setSaturation = setSaturation$1;
-exports.shade = shade$1;
-exports.size = size;
-exports.stripUnit = stripUnit;
-exports.textInputs = textInputs;
-exports.timingFunctions = timingFunctions;
-exports.tint = tint$1;
-exports.toColorString = toColorString;
-exports.transitions = transitions;
-exports.transparentize = transparentize$1;
-exports.wordWrap = wordWrap;
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-})));
+export { adjustHue$1 as adjustHue, animation, backgroundImages, backgrounds, borderColor, borderRadius, borderStyle, borderWidth, buttons, clearFix, complement, darken$1 as darken, desaturate$1 as desaturate, directionalProperty, ellipsis, em, fontFace, grayscale, invert, hideText, hiDPI, hsl, hsla, lighten$1 as lighten, margin, mix$1 as mix, modularScale, normalize, opacify$1 as opacify, padding, parseToHsl, parseToRgb, placeholder, position, radialGradient, rem, retinaImage, rgb, rgba, saturate$1 as saturate, selection, setHue$1 as setHue, setLightness$1 as setLightness, setSaturation$1 as setSaturation, shade$1 as shade, size, stripUnit, textInputs, timingFunctions, tint$1 as tint, toColorString, transitions, transparentize$1 as transparentize, wordWrap };
