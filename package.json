@@ -1,5 +1,6 @@
 {
   "name": "polished",
+  "version": "0.0.1",
   "description": "A lightweight toolset for writing styles in Javascript.",
   "main": "lib/index.js",
   "jsnext:main": "dist/styled-components.es.js",
